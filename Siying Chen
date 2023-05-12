@@ -1,0 +1,53 @@
+#include <iostream>
+
+// Lighting Control Unit class
+class LightingControlUnit {
+public:
+    void turnOnLight(int lightId) {
+        std::cout << "Turning on light: " << lightId << std::endl;
+        // Code to control the lighting system and turn on the specified light
+    }
+
+    void turnOffLight(int lightId) {
+        std::cout << "Turning off light: " << lightId << std::endl;
+        // Code to control the lighting system and turn off the specified light
+    }
+};
+
+int main() {
+    LightingControlUnit lightingControlUnit;
+
+    // Test turning on and off lights
+    lightingControlUnit.turnOnLight(1);
+    lightingControlUnit.turnOffLight(1);
+
+    lightingControlUnit.turnOnLight(2);
+    lightingControlUnit.turnOffLight(2);
+
+    return 0;
+}
+#include <iostream>
+
+// Curtain Control Unit class
+class CurtainControlUnit {
+public:
+    void openCurtain() {
+        std::cout << "Opening the curtain" << std::endl;
+        // Code to control the curtain system and open the curtain
+    }
+
+    void closeCurtain() {
+        std::cout << "Closing the curtain" << std::endl;
+        // Code to control the curtain system and close the curtain
+    }
+};
+
+int main() {
+    CurtainControlUnit curtainControlUnit;
+
+    // Test opening and closing the curtain
+    curtainControlUnit.openCurtain();
+    curtainControlUnit.closeCurtain();
+
+    return 0;
+}
